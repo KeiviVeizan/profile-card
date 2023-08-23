@@ -31,6 +31,7 @@ body {
 img {
     display: flex;
     border-radius: 50%;
+    
 }
 .description {
     display: flex;
@@ -63,4 +64,8 @@ img {
 .stat>div span:nth-child(2){
     font-weight: 400;
     font-size: 10px;
+}
+.añia {
+    background-color: aliceblue;
+    border-radius: 2%;
 }
