@@ -24,14 +24,12 @@ body {
     background: url(images/bg-pattern-bottom.svg)90px;
     background-color: hsl(185, 75%, 39%);
 }
+img { 
+    border-radius: 50%;
+}
 .card {
     width: 95%;
     overflow: hidden;
-}
-img {
-    display: flex;
-    border-radius: 50%;
-    
 }
 .description {
     display: flex;
@@ -68,4 +66,11 @@ img {
 .añia {
     background-color: aliceblue;
     border-radius: 2%;
+}
+.imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15%;
 }
